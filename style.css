@@ -1,0 +1,133 @@
+/*This document adds style to the website*/
+
+body {
+    /*background-color: lightgrey; /*Change Background Color Here*/
+    background-image: url('img/purplegradbckgrd.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: white; /*Change Text Color Here*/
+}
+
+/*Navigation Bar*/
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 9vh;
+}
+
+.logo {
+	color: lightgrey;
+	padding-inline-start: 10px;
+}
+
+.nav-links {
+    display: flex;
+	justify-content: space-around;
+    width: 30%;
+    list-style: none; 
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding-inline-end: 20px;
+}
+
+nav a:hover {
+    color: lightpink;
+    text-decoration: none; 
+}
+
+/*Sections*/
+.cover-page {
+    height: 100vh; 
+}
+
+.about-me {
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #a33ca3;
+    color: #ffffff; 
+    align-content: center;
+    size: 1em;
+}
+
+.education {
+    color: white; 
+    align-content: right; 
+    white-space: 10px; 
+}
+
+.skills {
+    background-color: #a33ca3;
+}
+
+#section-title {
+    margin-top: -100px; 
+}
+
+.contact {
+    margin-left: auto; 
+    margin-right: auto; 
+    align-content: center; 
+    background-color: #903aa3;
+    color: white;  
+}
+
+#contact-txt {
+    text-align: center; 
+    margin-top: -100px; 
+}
+
+#links {
+    align-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+Set the size of the div element that contains the map 
+#map {
+    height: 600px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+
+
+/*Defaults*/
+section { /*Aligns the section to be in the middle of the screen*/
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    font-family: sans-serif; 
+    box-sizing: border-box; 
+    padding: 200px; 
+  }
+
+  /* Name in the middle above click me button */
+#title {
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+
+/*Footer*/
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    text-align: center;
+ }
