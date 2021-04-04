@@ -1,0 +1,148 @@
+<!--This document is the core of the website. This is where we position everything
+on the page and write text-->
+<!DOCTYPE html>
+
+<head> <!--Head is where you link other files and libraries-->
+    <!--Website Title-->
+    <title>Angela Darden</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Link styl.css file to index.html-->
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!--Body is where you put code in-->
+    <!--Navigation Bar-->
+    <nav>
+        <div class="logo">
+            <h3>
+                <img src="img/purpletreeslogo.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
+                Angela Darden
+            </h3>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#edu">Education</a></li>
+            <!--<li><a href="#exp">Experience</a></li>-->
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Comment</a></li>
+        </ul>
+    </nav>
+
+    <!--Cover Page Section-->
+    <section class="cover-page">
+        <div id="title">
+            <h1>Angela Darden</h1>
+            <div id="about-btn">
+                    <button onclick="addWelcome()" class="btn btn-primary">Click Me!</button>
+                    <div id="more-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me Section-->
+    <section class="about-me" id="about">
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-between">
+            <div class="p-2 bd-highlight">
+                <h1>About Myself - Angela Darden</h1>
+                <p> Hi, my name is Angela Darden and I am a first year Cyber Security Major
+                    <br> from Virginia! I am inspiring Software Engineer who is interested in coding!
+                    <br> I love to code and craft!
+                </p>
+            </div>
+            <!--Place nice photo of yourself here, change file path-->
+            <div class="p-2 bd-highlight">
+                <img src="img/profheadshot.png" width="350" height="350" class="d-inline-flex align-top" alt="professional headshot">
+            </div>
+        </div>
+    </section>
+
+    <!--Education Section-->
+    <section class="education" id="edu">
+            <div class="d-flex flex-row bd-highlight mb-3 justify-content-between">
+                <!--Place nice photo of yourself here, change file path-->
+                <div class="p-2 bd-highlight"><img src="img/edu1.png" width="300" height="300" class="d-inline-flex align-top" alt="professional headshot">
+                </div>
+                <div class="p-2 bd-highlight">
+                    <h1>Hampton University</h1>
+                    <p> Relevant Courses: Programming I, Computational Thinking and Problem Solving 
+                        <br> Organizations: NSBE, Women In Computing Club, and DSC  
+                        <br> I will be graduating in May 2024
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row bd-highlight mb-3 justify-content-between">
+                    <!--Place nice photo of yourself here, change file path-->
+                    <div class="p-2 bd-highlight"><img src="img/edu2.png" width="300" height="300" class="d-inline-flex align-top" alt="professional headshot">
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <h1>Stafford Senior High School</h1>
+                        <p> Introduction to Technology Fundamentals & Cybersecurity Fundamentals 
+                                <br> Indoor and Outdoor Track & Cross Country  
+                                <br> I graduated in May 2020! 
+                        </p>
+                    </div>
+            </div>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skill">
+        <h1 id="section-title">Skills Section</h1>
+            <div class="d-flex justify-content-around">
+                <div>
+                    <img src="img/skills1.png" width="350" height="350" class="d-inline-block align-top" alt="">
+                    <h1>Problem Solving</h1>
+                </div>
+                <div>
+                    <img src="img/skills2.png" width="350" height="350" class="d-inline-block align-top" alt="">
+                    <h1>Time Management</h1>
+                </div>
+                <div>
+                    <img src="img/pencil.png" width="325" height="350" class="d-inline-block align-top" alt="">
+                    <h1>Hard Working</h1>
+                </div>
+            </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <h3 id="contact-txt">Contact Me!</h3>
+        <!--The div element for the map -->
+        <div id="map"></div>
+        <br><br>
+        <div class="d-flex justify-content-around" >
+            <a href="mailto:ajadarden27@gmail.com" class="btn btn-primary btn-lg">Email Me</a>
+            <a href="https://www.linkedin.com/in/angeladarden" class="btn btn-danger btn-lg">LinkedIn</a>
+            <a href="https://github.com/AngelaDarden" class="btn btn-success btn-lg">Github</a>
+            <a href="https://drive.google.com/file/d/1ZSx_cONT8uIykMNEGQI1lTIp_-J1eCtN/view?usp=sharing" class="btn btn-warning btn-lg">Resume</a>   
+        </div>
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.4531993247415!2d-76.33654898470385!3d37.02283917990338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba84b7f410cf0b%3A0x14fbeecf7f30fa45!2sHampton%20University!5e0!3m2!1sen!2sus!4v1615214356367!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+    <!--Footer here-->
+    <footer>
+            <p>Website Created by Angela Darden</p>
+    </footer>
+
+    <!--Links script.ks to html-->
+    <script src="script.js"></script>
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
